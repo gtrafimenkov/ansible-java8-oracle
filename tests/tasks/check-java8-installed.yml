@@ -1,0 +1,11 @@
+---
+
+- name: Get java version
+  command: "java -version"
+  register: result
+  changed_when: false
+
+- name: Check java version
+  assert:
+    that:
+      - "'java version \"1.8.0' in result.stderr"

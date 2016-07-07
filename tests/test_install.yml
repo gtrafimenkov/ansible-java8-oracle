@@ -1,0 +1,21 @@
+---
+
+- hosts: all
+
+  # facts will be gathered later - after the virtual machine is started
+  gather_facts: false
+
+  # process 2 hosts at a time
+  serial: 2
+
+  pre_tasks:
+    - include: tasks/restore-snapshot.yml
+    - include: tasks/start-vm.yml
+    - include: tasks/gather-facts.yml
+
+  roles:
+    - { role: ansible-role-java8-oracle, become: yes }
+
+  tasks:
+    - include: tasks/check-java8-installed.yml
+    - include: tasks/halt-vm.yml
