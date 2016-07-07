@@ -1,16 +1,19 @@
 ---
 galaxy_info:
-  author: Malk’Zameth
-  description: Java8 from Oracle, using the webupd8 ppa
+  author: Gennady Trafimenkov
+  description: Java 8 from Oracle, using the webupd8 ppa
   license: GPLv3
   min_ansible_version: 1.9
   platforms:
     - name: Ubuntu
       versions:
-        - saucy
+        - precise
         - trusty
+        - xenial
   categories:
     - development
     - system
+
+  issue_tracker_url: https://github.com/gtrafimenkov/ansible-role-java8-oracle/issues
 
 dependencies: []
