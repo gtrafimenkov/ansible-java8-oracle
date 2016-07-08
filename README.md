@@ -4,7 +4,7 @@ ansible-role-java8
 Ansible role to Install the Oracle Java 8 using webupd8 ppa.
 
 [![Build Status](https://travis-ci.org/gtrafimenkov/ansible-role-java8-oracle.svg)](http://travis-ci.org/gtrafimenkov/ansible-role-java8-oracle)
-[![Ansible Role](https://img.shields.io/badge/role-gtrafimenkov%2Fjava8--oracle-blue.svg?maxAge=2592000)](https://galaxy.ansible.com/gtrafimenkov/java8-oracle)
+[![Ansible Role](https://img.shields.io/badge/role-gtrafimenkov.java8--oracle-blue.svg?maxAge=2592000)](https://galaxy.ansible.com/gtrafimenkov/java8-oracle)
 
 This is a fork of [malk/ansible-java8-oracle](https://github.com/malk/ansible-java8-oracle) with following changes:
 - patch from [CkReal/ansible-java8-oracle](https://github.com/CkReal/ansible-java8-oracle)
