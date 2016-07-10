@@ -50,6 +50,8 @@ To run tests on virtual machines you will need:
 Here is how to test the role on Ubuntu 14.04: `make all_tests LIMIT=ubuntu1404`.  The test is successful if Ansible reports no failures during the test.  Use `make help` for more examples of how to run tests.
 
 At the moment there are tests for:
+- Debian 7
+- Debian 8
 - Ubuntu 12.04
 - Ubuntu 14.04
 - Ubuntu 16.04

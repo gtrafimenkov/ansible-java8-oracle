@@ -1,5 +1,5 @@
 # Comman-separated list of hosts and groups on which tests should be run
-LIMIT ?= ubuntu
+LIMIT ?= ubuntu,debian
 
 AP=ansible-playbook -i inventory --limit $(LIMIT)
 
