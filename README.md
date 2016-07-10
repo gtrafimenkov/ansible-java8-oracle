@@ -45,6 +45,7 @@ There is a basic test for Travis CI and a suite of tests to run on virtual machi
 To run tests on virtual machines you will need:
 - VirtualBox installed
 - Vagrant (version 1.8.3 or later) installed
+- fetch ansible-test-farm-v1 submodule: `git submodule init && git submodule update`
 
 Here is how to test the role on Ubuntu 14.04: `make all_tests LIMIT=ubuntu1404`.  The test is successful if Ansible reports no failures during the test.  Use `make help` for more examples of how to run tests.
 

@@ -1,5 +1,0 @@
----
-
-- name: Halt VM
-  local_action: "command vagrant halt {{inventory_hostname}}"
-  when: vagrant_vm|bool

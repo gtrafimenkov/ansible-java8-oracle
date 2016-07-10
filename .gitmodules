@@ -1,0 +1,4 @@
+[submodule "tests/ansible-test-farm-v1"]
+	path = tests/ansible-test-farm-v1
+	url = https://github.com/gtrafimenkov/ansible-test-farm-v1.git
+	branch = stable-test-base

@@ -1,5 +1,0 @@
----
-
-- name: Start VM
-  local_action: "command vagrant up {{inventory_hostname}}"
-  when: vagrant_vm|bool
